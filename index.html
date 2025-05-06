@@ -1,0 +1,94 @@
+<!doctypehtml>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1"name="viewport">
+    <meta content="Portfolio site for Isaac Ajibade showcasing projects, skills, and contact info"name="description">
+    <meta content="Isaac Ajibade, Web Developer, Portfolio, HTML, CSS"name="keywords">
+    <title>Isaac Ajibade - Portfolio</title>
+    <link href="styles.css"rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 id="home">Isaac Ajibade</h1>
+        <p>Web Developer | Data Analyst | Digital Creator</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <article>
+            <p>Hello! I'm <strong>Isaac Ajibade</strong>, a passionate <em>web developer</em> and <mark>data analyst</mark> based in Lagos. I enjoy creating clean, functional websites and visualizing data to drive business insights.</p>
+        </article>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>A personal portfolio to showcase my skills and projects.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Data Dashboard</td>
+                    <td>Interactive dashboard for visualizing business metrics.</td>
+                    <td>Python, Pandas, Power BI</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Template</td>
+                    <td>Basic front-end template for an online store.</td>
+                    <td>HTML, CSS, Bootstrap</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#"method="POST">
+            <label for="name">Name:</label>
+            <input id="name"name="name"required><br>
+
+            <label for="email">Email:</label>
+            <input id="email"name="email"required type="email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message"name="message"required></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Media Embedding -->
+    <section>
+        <h2>Location</h2>
+        <iframe height="250"loading="lazy"src="https://www.google.com/maps?q=Lagos&output=embed"width="100%"></iframe>
+    </section>
+
+    <!-- Image -->
+    <section>
+        <h2>My Photo</h2>
+        <img alt="Isaac Ajibade"src="images/profile.jpg"width="200"loading="lazy">
+    </section>
